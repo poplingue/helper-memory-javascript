@@ -1,1 +1,2 @@
-import helper from './how-to-promise';
+import Helper from './how-to-promise';
+new Helper();

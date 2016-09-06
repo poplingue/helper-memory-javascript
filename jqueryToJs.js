@@ -1,4 +1,4 @@
-/* ---------------------------------- manipulate DOM ---------------------------------- */
+/* ------------------------------------ manipulate DOM ------------------------------------ */
 
 document.querySelector('.myclass'); //IE8 +
 // = $('.myclass');
@@ -19,7 +19,7 @@ document.querySelectorAll('#conteneur li');
 document.getElementsByClassName("maClasse taClasse"); //!IE8
 // = $('.maClasse .taClasse');
 
-/* ---------------------------------- Insert element ---------------------------------- */
+/* ------------------------------------ Insert element ------------------------------------ */
 
 document.insertAdjacentHTML('beforeBegin', '<li></li>');
 document.insertAdjacentHTML('afterBegin', '<li></li>');
@@ -51,7 +51,7 @@ var c = document.getElementById('container');
 c.textContent = 'texte'; =
 $('#container').text('texte');
 
-/* ---------------------------------- Manipulate class & attributes ---------------------------------- */
+/* ---------------------------- Manipulate class & attributes ---------------------------- */
 
 document.getElementById('foo').className += 'bold';
 // = $('#foo').addClass('bold');
@@ -64,7 +64,7 @@ document.getElementById('foo').setAttribute('role', 'button');
 document.body.classList.contains('home');
 // = $(body).hasClass('home')
 
-/* ---------------------------------- Events ---------------------------------- */
+/* --------------------------------------- Events -------------------------------------- */
 
 someElement.addEventListener('click', function(e) {
     e.stopPropagation();
@@ -72,14 +72,14 @@ someElement.addEventListener('click', function(e) {
 
 someElement.removeEventListener('click', myEventHandler);
 
-/* ---------------------------------- Shortcut function ---------------------------------- */
+/* --------------------------------- Shortcut function --------------------------------- */
 
 var selector = function(el) {
     return document.querySelectorAll(el);
 };
 selector('.myClass');
 
-/* ---------------------------------- Chain function ---------------------------------- */
+/* ----------------------------------- Chain function ---------------------------------- */
 
 function myObj() {
     this.state = {
