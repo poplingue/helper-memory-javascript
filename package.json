@@ -6,7 +6,7 @@
     "main": "entry.js",
     "scripts": {
         "test": "mocha --compilers js:babel-register ./test/**-test.js",
-        "start": "webpack --watch",
+        "start": "webpack --watch"
     },
     "repository": {
         "type": "git",

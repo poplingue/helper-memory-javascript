@@ -11,10 +11,10 @@ class Trytest {
         return 4
     }
     onclickFn() {
-        if (document.body.classList.contains('test')) {
-            document.body.classList.remove('test');
+        if (document.body.classList.contains('btn-toggle')) {
+            document.body.classList.remove('btn-toggle');
         } else {
-            document.body.className += 'test';
+            document.body.className += 'btn-toggle';
         }
     }
 }

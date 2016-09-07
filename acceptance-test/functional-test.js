@@ -1,5 +1,6 @@
 Feature('My First Test');
-Scenario('test something', (I) => {
+Scenario('add Class on body', (I) => {
     I.amOnPage('/');
-    I.see('Hello');
+    I.click('Test');
+    I.seeElement('.btn-toggle');
 });
