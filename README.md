@@ -26,9 +26,11 @@
 
 ### Commands
 in /acceptance-test-server :
+
 `java -jar selenium-server-standalone-2.45.0.jar`
 
 in /
+
 `node server.js`
 
 `codeceptjs run`
