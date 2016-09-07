@@ -1,8 +1,3 @@
 /node_modules
 /output
 npm-debug.log
-.idea/codeStyleSettings.xml
-.idea/helper-memory-javascript.iml
-.idea/misc.xml
-.idea/modules.xml
-.idea/workspace.xml

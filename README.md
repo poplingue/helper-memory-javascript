@@ -19,13 +19,13 @@
 
 ## Acceptance tests
 
-### Requirements
+### Requirements in /acceptance-test-server
 
-- driver Chrome /driver
-- java JDK v8
+- driver Chrome http://bit.ly/2cC3PKp
+- java JDK v8 http://bit.ly/2cC2qn8
 
 ### Commands
-in /acceptance-test-server :
+in /acceptance-test-server
 
 `java -jar selenium-server-standalone-2.45.0.jar`
 
