@@ -1,17 +1,17 @@
-import TryTest from '../try-to-test'
+import HowToPromise from '../how-to-promise'
 import chai from 'chai'
+import chaiAsPromised from 'chai-as-promised'
 
-describe('promise', function() {
-    describe('testReturnObject', function() {
-        let tryTest;
+var expect = chai.expect
+chai.use(chaiAsPromised);
 
-        beforeEach(() => {
-            tryTest = new TryTest();
-        });
+describe('Promise Test', function() {
 
-        it('return object', () => {
-            chai.expect(tryTest.testReturnObject()).to.be.a('object');
-        });
+    it('promise resolve', () => {
+        let howPromise = new HowToPromise()
+        let result = howPromise.fromServer()
 
-    });
-});
+        expect(result).to.eventually.be.fulfilled
+    })
+
+})

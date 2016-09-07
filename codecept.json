@@ -1,0 +1,17 @@
+{
+    "tests": "./acceptance-test/*-test.js",
+    "timeout": 10000,
+    "output": "./acceptance-test/output",
+    "helpers": {
+        "WebDriverIO": {
+            "url": "http://localhost:8080/",
+            "browser": "chrome"
+        }
+    },
+    "include": {
+        "I": "./steps_file.js"
+    },
+    "bootstrap": false,
+    "mocha": {},
+    "name": "helper-memory-javascript"
+}
