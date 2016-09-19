@@ -1,4 +1,4 @@
-import HowToPromise from '../how-to-promise'
+import HowToPromise from '../promise/how-to-promise'
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
 
